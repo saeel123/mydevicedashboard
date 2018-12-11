@@ -1,0 +1,24 @@
+{
+  "name": "sampleangularjs",
+  "version": "1.0.0",
+  "description": "sample angularjs project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w app/scss/ -o app/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://saeeltranserve@bitbucket.org/saeeltranserve/sampleangularjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/saeeltranserve/sampleangularjs#readme",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.3",
+    "jquery": "^3.3.1",
+    "ngstorage": "^0.3.11",
+    "node-sass": "^4.9.3"
+  }
+}
